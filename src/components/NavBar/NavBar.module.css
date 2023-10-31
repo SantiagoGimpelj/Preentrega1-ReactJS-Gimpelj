@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 10px;
+  background-color: rgb(233, 53, 53);
+  width: 1300px;
+}
+h1 {
+  font-size: 3.2rem;
+  color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+div button {
+  margin: 5px;
+  background-color: rgb(133, 231, 231);
+  border: solid black 2px;
+}
